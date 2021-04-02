@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">RecipeApp</string>
+    <string name="error_api">Error on loading data wait 5 seconds to get fake data\n</string>
+    <string name="empty_list_error">There is no data</string>
+
 </resources>
