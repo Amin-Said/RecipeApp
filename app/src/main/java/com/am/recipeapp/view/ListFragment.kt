@@ -49,7 +49,7 @@ class ListFragment : Fragment(), RecipesAdapter.OnRecipesListener {
     @SuppressLint("ResourceType", "SetTextI18n")
     private val recipesErrorObserver = Observer<String> {
         if (it != null) {
-            binding.errorApi.text = "Error on loading data wait to get fake data\\n $it"
+            binding.errorApi.text = "Error on loading data wait to get fake data \n $it"
             binding.progressbar.visibility = View.GONE
             binding.rvRecipes.visibility = View.GONE
             binding.errorApi.visibility = View.VISIBLE
